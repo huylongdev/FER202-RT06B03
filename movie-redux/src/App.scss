@@ -19,3 +19,26 @@ body{
     margin: 0px 40px;
     
 }
+
+.app {
+    position: relative; 
+    min-height: 100vh; 
+}
+
+.container {
+    padding-bottom: 72px; 
+}
+
+.footer {
+
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    height: 72px;
+    background: $secondary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $font-primary;
+}

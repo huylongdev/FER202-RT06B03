@@ -9,9 +9,11 @@
   justify-content: space-between;
 }
 .logo{
-    color:$font-primary;
-    font-size:20px;
-    font-weight: 600;
+  background: linear-gradient(to right, #f32c09, #f8cd0f,#ffe9e3 );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size:40px;
+    font-weight: 900;
 
 }
 
