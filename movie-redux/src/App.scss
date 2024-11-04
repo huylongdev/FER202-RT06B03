@@ -68,4 +68,26 @@ body{
     margin-top: 5px;
     border-radius: 2px;
   }
+
+
+  .card-bottom {
+    background: rgba(0, 0, 0, 0.6); /* Nền bán trong suốt để làm nổi bật chữ */
+    padding: 10px; /* Tạo khoảng cách giữa chữ và biên */
+    border-radius: 0 0 8px 8px; /* Bo góc phần dưới của thẻ */
+    text-align: center; /* Căn giữa văn bản */
+    color: #fff; /* Màu chữ trắng */
+  }
+  
+  .card-info h4 {
+    font-size: 1.2em; /* Tăng kích thước chữ cho tiêu đề */
+    font-weight: bold; /* Đậm chữ tiêu đề */
+    margin: 5px 0; /* Tạo khoảng cách giữa tiêu đề và đoạn văn */
+  }
+  
+  .card-info p {
+    font-size: 0.9em; /* Giảm kích thước chữ cho năm */
+    color: #ccc; /* Màu chữ nhạt hơn cho năm */
+    margin: 0; /* Loại bỏ khoảng cách mặc định */
+  }
+  
   
