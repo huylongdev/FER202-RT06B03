@@ -12,9 +12,15 @@ a{
     text-decoration: none;
 }
 
-body{
-    background: $primary-color ;
+h2 {
+    margin: 20px;
+    color: #e5e5e5;
 }
+
+body {
+    background: #141414;
+}
+
 .container{
     margin: 0px 40px;
     
@@ -37,7 +43,7 @@ body{
     left: 0; 
     right: 0; 
     height: 72px;
-    background: $secondary-color;
+    background: black   ;
     display: flex;
     justify-content: center;
     align-items: center;
